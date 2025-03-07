@@ -1,0 +1,16 @@
+Le projet est structuré comme suit:
+
+gestion-taches/
+│
+├── controllers/
+│   └── taches.js
+├── models/
+│   └── taches.js
+├── routes/
+│   └── taches.js
+├── index.js
+└── package.json
+index.js : Point d'entrée de l'application.
+controllers/taches.js : Contient la logique métier pour la gestion des tâches.
+models/taches.js : Définit le modèle de données des tâches.
+routes/taches.js : Définit les routes de l'API liées aux tâches.
